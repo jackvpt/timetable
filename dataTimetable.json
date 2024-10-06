@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "teacher": "emilye",
+    "week": "A",
+    "day": "monday",
+    "subject": "Culture des religions - Catéchèse",
+	"subtitle":"R. CORNU - N.MOAL",
+    "start": "08:30",
+    "end": "09:20",
+    "classId": "6A",
+    "room": "6A"
+  },
+  {
+    "id": 2,
+    "teacher": "emilye",
+    "week": "A",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "09:25",
+    "end": "10:15",
+    "classId": "3B",
+    "room": "3B"
+  },
+  {
+    "id": 3,
+    "teacher": "emilye",
+    "week": "A",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "10:35",
+    "end": "11:25",
+    "classId": "6A",
+    "room": "6A"
+  },
+  {
+    "id": 4,
+    "teacher": "emilye",
+    "week": "A",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "11:30",
+    "end": "12:20",
+    "classId": "6C",
+    "room": "6C"
+  },
+  {
+    "id": 5,
+    "teacher": "emilye",
+    "week": "B",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "10:35",
+    "end": "11:25",
+    "classId": "6B",
+    "room": "6B"
+  },
+  {
+    "id": 6,
+    "teacher": "emilye",
+    "week": "B",
+    "day": "monday",
+    "subject": "Vie de classe",
+	"subtitle":"",
+    "start": "11:30",
+    "end": "12:20",
+    "classId": "6A",
+    "room": "6A"
+  },
+  {
+    "id": 7,
+    "teacher": "emilye",
+    "week": "B",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "13:50",
+    "end": "14:40",
+    "classId": "3B",
+    "room": "3B"
+  },
+  {
+    "id": 8,
+    "teacher": "emilye",
+    "week": "B",
+    "day": "monday",
+    "subject": "Histoire-Géographie",
+	"subtitle":"",
+    "start": "14:45",
+    "end": "15:35",
+    "classId": "6C",
+    "room": "6C"
+  }
+]
