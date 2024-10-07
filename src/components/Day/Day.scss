@@ -1,0 +1,49 @@
+@import "../../variables.scss";
+
+section {
+  background-color: $primary-bg-color;
+  color: black;
+  padding:10px;
+  width:17%;
+
+  @media (min-width: $breakpoint-desktop-large) and (max-width: $breakpoint-desktop-extralarge) {
+    width:20%;
+  }
+
+  @media (min-width: $breakpoint-desktop) and (max-width: $breakpoint-desktop-large) {
+    width:28%;
+  }
+
+  @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop) {
+    width:42%;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    width:80%;
+  }
+
+  h2{
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    text-transform: capitalize;
+    padding:10px;
+    height:25px;
+    background-color: rgb(96,136,216);
+    color:white;
+    border-radius: 15px;
+  }
+  .container__day{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container__day-weekAB{
+    width:48%;
+  }
+
+
+}

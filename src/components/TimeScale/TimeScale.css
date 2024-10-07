@@ -1,0 +1,76 @@
+/* =========================================== */
+/* VARIABLES */
+/* =========================================== */
+.container__main-timescales {
+  margin: 65px 5px 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+
+.container__timeScale_hour {
+  background-color: rgb(96, 136, 216);
+  border-radius: 5px;
+  color: white;
+  width: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.container__timeScale_hour p {
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .container__timeScale_hour p {
+    font-size: 10px;
+  }
+}
+
+.timeScale1 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .timeScale1 {
+    display: block;
+  }
+}
+
+.timeScale2 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .timeScale2 {
+    display: block;
+  }
+}
+
+.timeScale3 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .timeScale3 {
+    display: block;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .timeScale3 {
+    display: block;
+  }
+}
+
+.timeScale4 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .timeScale4 {
+    display: block;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1768px) {
+  .timeScale4 {
+    display: block;
+  }
+}/*# sourceMappingURL=TimeScale.css.map */
