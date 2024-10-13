@@ -12,7 +12,6 @@
   flex-wrap: wrap;
   gap: 10px;
   margin: auto;
-  padding: 0 50px 0 0;
 }
 @media (max-width: 768px) {
   .container__timetables {

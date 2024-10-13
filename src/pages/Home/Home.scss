@@ -2,6 +2,7 @@
 .container__main{
   display:flex;
   flex-direction: row;
+
 }
 .container__timetables {
   display: flex;
@@ -9,9 +10,6 @@
   flex-wrap: wrap;
   gap: 10px;
   margin: auto;
-  padding: 0 50px 0 0;
-
-
 
   @media (max-width: $breakpoint-mobile) {
     padding: 0;

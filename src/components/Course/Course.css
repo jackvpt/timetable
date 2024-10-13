@@ -6,7 +6,7 @@ article {
   display: flex;
   flex-direction: column;
   color: black;
-  height: 90px;
+  height: 100px;
   text-align: center;
   padding: 10px 5px;
   border-radius: 10px;
@@ -16,10 +16,20 @@ article h3 {
   font-size: 12px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  article h3 {
+    font-size: 10px;
+  }
+}
 article h4 {
   margin-top: 5px;
   font-size: 10px;
   font-style: italic;
+}
+@media (max-width: 768px) {
+  article h4 {
+    font-size: 8px;
+  }
 }
 article .classId {
   font-size: 12px;
@@ -50,6 +60,13 @@ article .container__room-week .week {
   background-color: white;
   border-radius: 10px;
   align-content: center;
+}
+@media (max-width: 768px) {
+  article .container__room-week .week {
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .container__course--inactive {

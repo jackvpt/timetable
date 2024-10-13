@@ -5,7 +5,7 @@ article {
   display: flex;
   flex-direction: column;
   color: black;
-  height: 90px;
+  height: 100px;
   text-align: center;
   padding: 10px 5px;
   border-radius: 10px;
@@ -14,12 +14,20 @@ article {
   h3 {
     font-size: 12px;
     font-weight: bold;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size:10px;
+    }
   }
 
   h4 {
     margin-top: 5px;
     font-size: 10px;
     font-style: italic;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size:8px;
+    }
   }
 
   .classId {
@@ -54,6 +62,13 @@ article {
       background-color: white;
       border-radius: 10px;
       align-content: center;
+
+      @media (max-width: $breakpoint-mobile) {
+        font-size:10px;
+        width:16px;
+        height:16px;
+      }
+
     }
   }
 }
