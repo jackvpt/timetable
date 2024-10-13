@@ -8,12 +8,11 @@ import Footer from "../Footer/Footer"
 export default function Router() {
   return (
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/timetable">
         <Header />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/timetable" element={<Home />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </main>
