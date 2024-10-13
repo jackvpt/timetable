@@ -6,8 +6,9 @@ import { useFetch } from "../../utils/useFetch.jsx"
 
 export default function Day({ day, filterWeek }) {
   // Fetch call returns 'data', 'isLoading' and 'error'
-  const fetchResult = useFetch("dataTimetable.json")
   const fetchResultTimeScale = useFetch("dataTimeScale.json")
+
+  const fetchResult = useFetch("dataTimetable.json")
 
   // Get data from fetch
   const timetables = fetchResult.data
