@@ -1,41 +1,36 @@
 @import "../../variables.scss";
 
 header {
-  margin:0 auto;
-  display: flex;
-  flex-direction:row;
+  margin: 0 auto;
   justify-content: center;
-  padding:0 100px;
-  margin-bottom:20px;
-
-
+  padding: 10px 100px;
+  margin-bottom: 20px;
+  background-color: $primary-bg-color;
+  border-radius: 20px;
 
   @media (max-width: $breakpoint-mobile) {
-    padding: 0 20px;
+    margin-bottom:10px;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 
-  a{
+  a {
     text-decoration: none;
   }
 
   h1 {
-    color: $primary-color;
+    color: $color4;
 
-    @media (min-width: $breakpoint-desktop-large)  {
+    @media (min-width: $breakpoint-desktop-large) {
       font-size: 36px;
     }
-  
+
     @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop-large) {
       font-size: 24px;
     }
-  
-    @media  (max-width: $breakpoint-mobile) {
+
+    @media (max-width: $breakpoint-mobile) {
       font-size: 18px;
     }
-  
-
   }
 }
-
-
-

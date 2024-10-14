@@ -6,18 +6,20 @@ import { useFetch } from "../../utils/useFetch.jsx"
 
 export default function Day({ day, filterWeek }) {
   // Fetch call returns 'data', 'isLoading' and 'error'
-  const fetchResultTimeScale = useFetch("dataTimeScale.json")
+  // const fetchResultTimeScale = useFetch("dataTimeScale.json")
 
-  const fetchResult = useFetch("dataTimetable.json")
+  const fetchResultTimeTable = useFetch("dataTimetable.json")
+  const fetchResultTimeScales = useFetch("dataTimeScales.json")
+
+
+  if (fetchResultTimeTable.isLoading || !fetchResultTimeTable.data) return
+  if (fetchResultTimeScales.isLoading || !fetchResultTimeScales.data) return
 
   // Get data from fetch
-  const timetables = fetchResult.data
-  const timeScales = fetchResultTimeScale.data
+  const timeTables = fetchResultTimeTable.data
+  const timeScales = fetchResultTimeScales.data
 
-  if (fetchResult.isLoading || !fetchResult.data) return
-  if (fetchResultTimeScale.isLoading || !fetchResultTimeScale.data) return
-
-  const dayTimetables = timetables.filter((timetable) => timetable.day === day)
+  const dayTimetables = timeTables.filter((timeTable) => timeTable.day === day)
 
   const class_dayWidth = (filterWeek.length === 2) ? "container__day-AandB" : "container__day-AorB"
 

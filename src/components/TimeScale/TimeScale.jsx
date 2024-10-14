@@ -4,7 +4,7 @@ import { useFetch } from "../../utils/useFetch.jsx"
 
 export default function TimeScale() {
   // Fetch call returns 'data', 'isLoading' and 'error'
-  const fetchResult = useFetch("/dataTimeScale.json")
+  const fetchResult = useFetch("dataTimeScales.json")
 
   // Get data from fetch
   const timeScales = fetchResult.data
