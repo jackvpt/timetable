@@ -1,4 +1,4 @@
-@use "../../variables.scss" as *;
+@use "../../styles/variables.scss" as *;
 
 article {
   margin-bottom: 5px;
@@ -56,7 +56,7 @@ article {
     justify-content: space-between;
     align-items: center;
     .week {
-      font-size: 14px;
+      font-size: 10px;
       font-weight: bold;
       width: 20px;
       height: 20px;

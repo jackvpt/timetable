@@ -22,8 +22,8 @@
 .container__filterBar-subBar :hover {
   cursor: pointer;
   background-color: white;
-  color: #ff6060;
-  border: solid 2px #ff6060;
+  color: #134074;
+  border: solid 2px #134074;
 }
 @media (max-width: 1024px) {
   .container__filterBar-subBar {
@@ -36,17 +36,17 @@
   }
 }
 .container__filterBar-filterElement {
-  background-color: #ff6060;
+  background-color: #134074;
   color: white;
   border-radius: 10px;
   text-align: center;
   align-content: center;
   padding: 0 15px;
   height: 40px;
-  border: solid 2px #ff6060;
+  border: solid 2px #134074;
 }
 .container__filterBar .active {
   background-color: white;
-  color: #ff6060;
-  border: solid 2px #ff6060;
+  color: #134074;
+  border: solid 2px #134074;
 }/*# sourceMappingURL=FilterBar.css.map */

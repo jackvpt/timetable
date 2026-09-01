@@ -25,6 +25,10 @@ body {
   }
 }
 
+main {
+  margin-bottom: 10px;
+}
+
 #root {
   display: flex;
   flex-direction: column;

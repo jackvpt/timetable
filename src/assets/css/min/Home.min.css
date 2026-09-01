@@ -1,0 +1,1 @@
+.container__main{display:flex;flex-direction:row}.container__timetables{display:flex;flex-direction:row;justify-content:space-evenly;flex-wrap:wrap;gap:10px;margin:auto}@media(max-width: 768px){.container__timetables{padding:0}}/*# sourceMappingURL=Home.min.css.map */
