@@ -14,7 +14,7 @@ export default function Course({ props }) {
           <h4>{props.subtitle}</h4>
           <p className="classId">{props.classId}</p>
           <div className="container__room-week">
-            <p className="room">SALLE {props.room}</p>
+            {props.room && <p className="room">SALLE {props.room}</p>}
             <div className="week">{props.week}</div>
           </div>
         </div>

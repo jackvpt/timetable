@@ -58,6 +58,7 @@ article .container__room-week .week {
   font-weight: bold;
   width: 20px;
   height: 20px;
+  margin-left: auto;
   background-color: white;
   border-radius: 10px;
   align-content: center;
